@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="shortcut icon" href="Imagem do WhatsApp de 2025-07-09 à(s) 23.02.55_e0cabd9d.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+  background-color: #e6f2ec;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.quiz-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+  color: #2f6f4e;
+}
+
+.pergunta {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #2f6f4e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #24563e;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+    </style>
+    <div class="container">
+        <h1 class="text-center">Quiz de Sustentabilidade</h1>
+
+    <div class="pergunta ">
+      <p>1. O que é sustentabilidade?</p>
+      <label><input type="radio" name="q1" value="a"> Sustentabilidade é quando usamos todos os recursos o mais rápido possível para gerar lucro.</label><br>
+      <label><input type="radio" name="q1" value="b"> É o uso consciente dos recursos naturais</label><br>
+      <label><input type="radio" name="q1" value="c"> Sustentabilidade é apenas uma tendência de marketing sem impacto real no meio ambiente.</label><br>
+    </div>
+
+    <div class="pergunta">
+        <p>2.O que é desenvolvimento sustentável?</p>
+        <label><input type="radio" name="q2" value="a"> É o modelo de crescimento que busca equilíbrio entre economia</label><br>
+        <label><input type="radio" name="q2" value="b"> É o crescimento econômico sem limites e sem considerar o meio ambiente.</label><br>
+        <label><input type="radio" name="q2" value="c"> É o processo de construir cidades apenas com base na tecnologia, sem considerar impactos sociais.</label><br>
+    </div>
+ 
+    <div class="pergunta">
+      <p>3.Por que a sustentabilidade é importante?</p>
+      <label><input type="radio" name="q3" value="a"> Porque ajuda a preservar o meio ambiente</label><br>
+      <label><input type="radio" name="q3" value="b"> Porque permite o aumento do consumo de combustíveis fósseis.
+</label><br>
+      <label><input type="radio" name="q3" value="c"> Porque garante que todos possam desperdiçar sem preocupações.
+
+</label><br>
+    </div>
+    <div class="pergunta">
+      <p>4.Quais são os 3 pilares da sustentabilidade?</p>
+      <label><input type="radio" name="q4" value="a"> Político, cultural e financeiro.</label><br>
+      <label><input type="radio" name="q4" value="b"> Ambiental, social e econômico.</label><br>
+      <label><input type="radio" name="q4" value="c"> Industrial, tecnológico e militar.
+
+</label><br>
+    </div>
+    <div class="pergunta">
+      <p>5. O que podemos fazer no dia a dia para ser mais sustentáveis?</p>
+      <label><input type="radio" name="q5" value="a"> Deixar luzes acesas o dia todo e usar o carro sempre que possível.</label><br>
+      <label><input type="radio" name="q5" value="b"> Comprar mais produtos descartáveis para facilitar a limpeza.</label><br>
+      <label><input type="radio" name="q5" value="c"> Economizar água e energia, reciclar, consumir menos plástico, usar transporte coletivo ou bicicleta, e apoiar empresas responsáveis.
+</label><br>
+    </div>
+    <div class="pergunta">
+      <p>6.O que é a pegada ecológica?</p>
+      <label><input type="radio" name="q6" value="a"> É o rastro que os animais deixam na natureza.</label><br>
+      <label><input type="radio" name="q6" value="b"> É a medida do impacto que nossas atividades têm sobre o planeta, como consumo de recursos e geração de lixo.</label><br>
+      <label><input type="radio" name="q6" value="c">  É uma nova técnica de agricultura moderna.</label><br>
+    </div>
+    <div class="pergunta">
+      <p>7.O que significa reciclar?</p>
+      <label><input type="radio" name="q7" value="a"> Reciclar é transformar materiais usados (como papel, plástico, vidro e metal) em novos produtos, evitando desperdício.</label><br>
+      <label><input type="radio" name="q7" value="b"> É jogar todo o lixo no mesmo lugar para facilitar a coleta.</label><br>
+      <label><input type="radio" name="q7" value="c"> É queimar os resíduos para eliminá-los rapidamente.</label><br>
+    </div>
+    <div class="pergunta">
+      <p>8.Qual a relação entre sustentabilidade e mudanças climáticas?</p>
+      <label><input type="radio" name="q8" value="a"> Não existe nenhuma relação entre sustentabilidade e o clima.
+</label><br>
+      <label><input type="radio" name="q8" value="b"> A sustentabilidade ajuda a reduzir as emissões de gases de efeito estufa, diminuindo o aquecimento global.
+</label><br>
+      <label><input type="radio" name="q8" value="c"> A sustentabilidade aumenta o uso de carvão, ajudando no aquecimento global.</label><br>
+    </div>
+    <div class="pergunta">
+      <p>9.Como a agricultura pode ser mais sustentável?</p>
+      <label><input type="radio" name="q9" value="a"> Plantando sempre o mesmo tipo de cultura sem rotação.</label><br>
+      <label><input type="radio" name="q9" value="b"> Utilizando mais pesticidas e desmatando áreas para aumentar a produção.
+</label><br>
+      <label><input type="radio" name="q9" value="c"> Usando menos agrotóxicos, preservando o solo, economizando água e respeitando a biodiversidade.</label><br>
+    </div>
+    <div class="pergunta">
+      <p>10.O que são energias renováveis?</p>
+      <label><input type="radio" name="q10" value="a"> São energias que acabam rapidamente e não podem ser reutilizadas.</label><br>
+      <label><input type="radio" name="q10" value="b"> São fontes de energia que se renovam naturalmente, como a solar, eólica, hídrica e biomassa — e são menos poluentes.</label><br>
+      <label><input type="radio" name="q10" value="c"> São energias produzidas apenas por petróleo e carvão.
+</label><br>
+    </div>
+    <button onclick="verificarRespostas()">Enviar</button>
+    <p id="resultado"></p>
+  </div>
+
+  <script>
+    function verificarRespostas() {
+      // let pontos = 0;
+      // const resposta1 = document.querySelector('input[name="q1"]:checked');
+      // const resposta2 = document.querySelector('input[name="q2"]:checked');
+      // const resposta3 = document.querySelector('input[name="q3"]:checked');
+      // const resposta4 = document.querySelector('input[name="q4"]:checked');
+      // const resposta5 = document.querySelector('input[name="q5"]:checked');
+      // const resposta6 = document.querySelector('input[name="q6"]:checked');
+      // const resposta7 = document.querySelector('input[name="q7"]:checked');
+      // const resposta8 = document.querySelector('input[name="q8"]:checked');
+      // const resposta9 = document.querySelector('input[name="q9"]:checked');
+      // const resposta10 = document.querySelector('input[name="q10"]:checked');
+
+      // if (resposta1 && resposta1.value === "b") pontos++;
+      // if (resposta2 && resposta2.value === "a") pontos++;
+      // if (resposta3 && resposta3.value === "a") pontos++;
+      // if (resposta4 && resposta4.value === "b") pontos++;
+      // if (resposta5 && resposta5.value === "c") pontos++;
+      // if (resposta6 && resposta6.value === "b") pontos++;
+      // if (resposta7 && resposta7.value === "a") pontos++;
+      // if (resposta8 && resposta8.value === "b") pontos++;
+      // if (resposta9 && resposta9.value === "c") pontos++;
+      // if (resposta10 && resposta10.value === "b") pontos++;
+
+      // document.getElementById("resultado").textContent = "Você acertou " + pontos + " de 2 perguntas.";
+
+        let pontos = 0;
+
+    const respostas = {
+      q1: "b",
+      q2: "a",
+      q3: "a",
+      q4: "b",
+      q5: "c",
+      q6: "b",
+      q7: "a",
+      q8: "b",
+      q9: "c",
+      q10: "b"
+    };
+
+    for (let i = 1; i <= 10; i++) {
+      const resposta = document.querySelector(`input[name="q${i}"]:checked`);
+      if (resposta && resposta.value === respostas[`q${i}`]) {
+        pontos++;
+      }
+    }
+
+    document.getElementById("resultado").textContent = `Você acertou ${pontos} de 10 perguntas.`;
+    }
+  </script>
+</body>
+</html>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
